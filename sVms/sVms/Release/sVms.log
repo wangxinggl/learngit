@@ -1,0 +1,302 @@
+﻿生成启动时间为 2020-02-27 19:16:30。
+     1>项目“F:\platform\tools\sVMS\sVms\sVms\sVms.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Uic'ing UI\BehaviorAnalyseDlg.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_About.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_About.cpp, GeneratedFiles\Release\moc_About.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_adduser.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_adduser.cpp, GeneratedFiles\Release\moc_adduser.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_AnimationButton.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_AnimationButton.cpp, GeneratedFiles\Release\moc_AnimationButton.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_appinit.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_appinit.cpp, GeneratedFiles\Release\moc_appinit.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_changeskin.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_changeskin.cpp, GeneratedFiles\Release\moc_changeskin.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_clickedlabel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_clickedlabel.cpp, GeneratedFiles\Release\moc_clickedlabel.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_cpumemorylabel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_cpumemorylabel.cpp, GeneratedFiles\Release\moc_cpumemorylabel.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_Dmp3b.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_Dmp3b.cpp, GeneratedFiles\Release\moc_Dmp3b.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_ExcelImport.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_ExcelImport.cpp, GeneratedFiles\Release\moc_ExcelImport.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_iconhelper.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_iconhelper.cpp, GeneratedFiles\Release\moc_iconhelper.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_LayerDrawWidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_LayerDrawWidget.cpp, GeneratedFiles\Release\moc_LayerDrawWidget.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_LayerWidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_LayerWidget.cpp, GeneratedFiles\Release\moc_LayerWidget.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_modifyuser.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_modifyuser.cpp, GeneratedFiles\Release\moc_modifyuser.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_OneVideo.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_OneVideo.cpp, GeneratedFiles\Release\moc_OneVideo.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_TimeScaleControlWidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_TimeScaleControlWidget.cpp, GeneratedFiles\Release\moc_TimeScaleControlWidget.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_usermgt.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_usermgt.cpp, GeneratedFiles\Release\moc_usermgt.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_VideoTimeLine.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_VideoTimeLine.cpp, GeneratedFiles\Release\moc_VideoTimeLine.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_VMTools.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_VMTools.cpp, GeneratedFiles\Release\moc_VMTools.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of moc_WindowLock.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_WindowLock.cpp, GeneratedFiles\Release\moc_WindowLock.cpp.
+       ClCompile:
+         E:\VS2015\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IF:\Qt\5.8\msvc2015\include /I.\GeneratedFiles\Release /IF:\Qt\5.8\msvc2015\include\QtCore /IF:\Qt\5.8\msvc2015\include\QtGui /IF:\Qt\5.8\msvc2015\include\QtSql /IF:\Qt\5.8\msvc2015\include\QtWidgets /IF:\Qt\5.8\msvc2015\include\ActiveQt /IF:\Qt\5.8\msvc2015\include\QtMultimedia /IF:\Qt\5.8\msvc2015\include\QtHelp /I..\..\..\..\public\Include /I..\..\..\public\Common /I..\..\..\public\Include\Excel /I..\..\public\Include /nologo /W3 /WX- /MP /Od /Oi /Oy- /GL /D WIN32 /D WIN64 /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_HELP_LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BehaviorAnalyseDlg.cpp Device\JLNDevice.cpp GeneratedFiles\Release\moc_BehaviorAnalyseDlg.cpp GeneratedFiles\Release\moc_client.cpp GeneratedFiles\Release\moc_login.cpp ModifyChannel.cpp OneVideoPro.cpp RePlayDownDlg.cpp TemperatureBox.cpp adddevice.cpp client.cpp comparerecord.cpp devtreepro.cpp equimentmgt.cpp login.cpp logsearch.cpp main.cpp modifydevice.cpp preview.cpp recognition.cpp unrecognition.cpp videoplayback.cpp
+         BehaviorAnalyseDlg.cpp
+         JLNDevice.cpp
+         moc_BehaviorAnalyseDlg.cpp
+         moc_client.cpp
+         moc_login.cpp
+         ModifyChannel.cpp
+         OneVideoPro.cpp
+         RePlayDownDlg.cpp
+     1>Device\JLNDevice.cpp(219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(740): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>Device\JLNDevice.cpp(802): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(803): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(804): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(818): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(819): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(820): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(821): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(894): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(895): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(896): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(897): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(906): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>Device\JLNDevice.cpp(912): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>Device\JLNDevice.cpp(935): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>Device\JLNDevice.cpp(989): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(990): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(991): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(992): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1264): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1271): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1284): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1285): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1286): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1303): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1311): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1319): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1340): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>Device\JLNDevice.cpp(1335): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(1336): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(1337): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(1338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(1384): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>Device\JLNDevice.cpp(1416): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>Device\JLNDevice.cpp(1419): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>Device\JLNDevice.cpp(1454): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+         TemperatureBox.cpp
+         adddevice.cpp
+         client.cpp
+         comparerecord.cpp
+     1>OneVideoPro.cpp(471): warning C4018: “<=”: 有符号/无符号不匹配
+         devtreepro.cpp
+         equimentmgt.cpp
+     1>TemperatureBox.cpp(37): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>client.cpp(198): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         login.cpp
+         logsearch.cpp
+         main.cpp
+         modifydevice.cpp
+         preview.cpp
+         recognition.cpp
+     1>logsearch.cpp(448): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h(1316): note: 参见“itoa”的声明
+         unrecognition.cpp
+         videoplayback.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\DbgHelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 main.cpp)
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\DbgHelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 main.cpp)
+     1>recognition.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>recognition.cpp(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>recognition.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>unrecognition.cpp(46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>unrecognition.cpp(48): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>videoplayback.cpp(1665): warning C4018: “<=”: 有符号/无符号不匹配
+     1>videoplayback.cpp(2227): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         E:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\platform\tools\sVMS\sVms\Win32\\sVms.exe" /NOLOGO /LIBPATH:F:\Qt\5.8\msvc2015\lib /LIBPATH:..\..\..\public\lib /LIBPATH:../lib/release/ qtmain.lib Dbghelp.lib Qt5Core.lib Qt5Gui.lib Qt5Sql.lib Qt5Widgets.lib VideoNetAPI.lib VideoPlayerAPI.lib wininet.lib Qt5AxContainer.lib Qt5AxBase.lib Qt5Multimedia.lib Shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\platform\tools\sVMS\sVms\Win32\sVms.pdb" /SUBSYSTEM:WINDOWS /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\platform\tools\sVMS\sVms\Win32\sVms.lib" /MACHINE:X86 /SAFESEH Release\sVms1.res
+         Release\About.obj
+         Release\adddevice.obj
+         Release\adduser.obj
+         Release\AnalyseVideoAreaDlg.obj
+         Release\AnalysisDlg.obj
+         Release\AnimationButton.obj
+         Release\appinit.obj
+         Release\BehaviorAnalyseDlg.obj
+         Release\capacityset.obj
+         Release\changeskin.obj
+         Release\clickedlabel.obj
+         Release\client.obj
+         Release\CompareEvent.obj
+         Release\comparerecord.obj
+         Release\ConfigNetwork.obj
+         Release\cpumemorylabel.obj
+         Release\DB.obj
+         Release\Device.obj
+         Release\JLNDevice.obj
+         Release\devtreepro.obj
+         Release\Dmp3b.obj
+         Release\equimentmgt.obj
+         Release\ExcelImport.obj
+         Release\FaceAlarm.obj
+         Release\FrameBuf.obj
+         Release\moc_About.obj
+         Release\moc_adduser.obj
+         Release\moc_AnimationButton.obj
+         Release\moc_appinit.obj
+         Release\moc_changeskin.obj
+         Release\moc_clickedlabel.obj
+         Release\moc_cpumemorylabel.obj
+         Release\moc_Dmp3b.obj
+         Release\moc_ExcelImport.obj
+         Release\moc_iconhelper.obj
+         Release\moc_LayerDrawWidget.obj
+         Release\moc_LayerWidget.obj
+         Release\moc_modifyuser.obj
+         Release\moc_OneVideo.obj
+         Release\moc_TimeScaleControlWidget.obj
+         Release\moc_usermgt.obj
+         Release\moc_VideoTimeLine.obj
+         Release\moc_VMTools.obj
+         Release\moc_WindowLock.obj
+         Release\moc_About.obj
+         Release\moc_adddevice.obj
+         Release\moc_adduser.obj
+         Release\moc_AnalyseVideoAreaDlg.obj
+         Release\moc_AnalysisDlg.obj
+         Release\moc_AnimationButton.obj
+         Release\moc_appinit.obj
+         Release\moc_BehaviorAnalyseDlg.obj
+         Release\moc_capacityset.obj
+         Release\moc_changeskin.obj
+         Release\moc_clickedlabel.obj
+         Release\moc_client.obj
+         Release\moc_comparerecord.obj
+         Release\moc_ConfigNetwork.obj
+         Release\moc_cpumemorylabel.obj
+         Release\moc_DB.obj
+         Release\moc_devtreepro.obj
+         Release\moc_Dmp3b.obj
+         Release\moc_equimentmgt.obj
+         Release\moc_ExcelImport.obj
+         Release\moc_FaceAlarm.obj
+         Release\moc_iconhelper.obj
+         Release\moc_ImageSet.obj
+         Release\moc_LayerDrawWidget.obj
+         Release\moc_LayerWidget.obj
+         Release\moc_login.obj
+         Release\moc_logsearch.obj
+         Release\moc_MessBox.obj
+         Release\moc_ModifyChannel.obj
+         Release\moc_modifydevice.obj
+         Release\moc_modifyuser.obj
+         Release\moc_OneVideo.obj
+         Release\moc_OneVideoPro.obj
+         Release\moc_OrdinarySet.obj
+         Release\moc_ParamMeteSet.obj
+         Release\moc_preview.obj
+         Release\moc_recognition.obj
+         Release\moc_RePlayDownDlg.obj
+         Release\moc_showcpumemory.obj
+         Release\moc_StreamSet.obj
+         Release\moc_systemset.obj
+         Release\moc_TemperatureBox.obj
+         Release\moc_TimeScaleControlWidget.obj
+         Release\moc_unrecognition.obj
+         Release\moc_Upgrade.obj
+         Release\moc_usermgt.obj
+         Release\moc_videoplayback.obj
+         Release\moc_VideoTimeLine.obj
+         Release\moc_VideoWarning.obj
+         Release\moc_VMTools.obj
+         Release\moc_WindowLock.obj
+         Release\iconhelper.obj
+         Release\ImageSet.obj
+         Release\LayerDrawWidget.obj
+         Release\LayerWidget.obj
+         Release\login.obj
+         Release\logsearch.obj
+         Release\main.obj
+         Release\MessBox.obj
+         Release\mlog.obj
+         Release\ModifyChannel.obj
+         Release\modifydevice.obj
+         Release\modifyuser.obj
+         Release\OneVideo.obj
+         Release\OneVideoPro.obj
+         Release\OrdinarySet.obj
+         Release\ParamMeteSet.obj
+         Release\preview.obj
+         Release\recognition.obj
+         Release\RePlayDownDlg.obj
+         Release\qrc_client.obj
+         Release\qrc_res.obj
+         Release\showcpumemory.obj
+         Release\StreamSet.obj
+         Release\systemset.obj
+         Release\TemperatureBox.obj
+         Release\TimeScaleControlWidget.obj
+         Release\unrecognition.obj
+         Release\Upgrade.obj
+         Release\usermgt.obj
+         Release\videoplayback.obj
+         Release\VideoTimeLine.obj
+         Release\VideoWarning.obj
+         Release\VMTools.obj
+         Release\WindowLock.obj
+     1>Release\moc_About.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_adduser.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_AnimationButton.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_appinit.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_changeskin.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_clickedlabel.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_cpumemorylabel.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_Dmp3b.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_ExcelImport.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_iconhelper.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_LayerDrawWidget.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_LayerWidget.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_modifyuser.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_OneVideo.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_TimeScaleControlWidget.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_usermgt.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_VideoTimeLine.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_VMTools.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Release\moc_WindowLock.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+         正在生成代码
+         已完成代码的生成
+         sVms.vcxproj -> F:\platform\tools\sVMS\sVms\Win32\sVms.exe
+     1>已完成生成项目“F:\platform\tools\sVMS\sVms\sVms\sVms.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:47.39

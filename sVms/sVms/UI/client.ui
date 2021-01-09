@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientClass</class>
+ <widget class="QMainWindow" name="ClientClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1027</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Client</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <property name="spacing">
+     <number>3</number>
+    </property>
+    <item row="0" column="1" rowspan="2">
+     <widget class="QLabel" name="label_3">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 20pt &quot;Microsoft JhengHei&quot;;</string>
+      </property>
+      <property name="text">
+       <string>sVMS2000</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>81</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0" rowspan="2">
+     <widget class="QLabel" name="label_2">
+      <property name="maximumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>:/res/SoftIcon/logo.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QPushButton" name="btnMenu_Max">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="toolTip">
+       <string>最大化</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/res/SoftIcon/+.png</normaloff>:/res/SoftIcon/+.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QPushButton" name="btnMenu_Min">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="toolTip">
+       <string>最小化</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/res/SoftIcon/-.png</normaloff>:/res/SoftIcon/-.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="btnMenu_Close">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="toolTip">
+       <string>关闭</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>:/res/SoftIcon/Cancel.png</normaloff>:/res/SoftIcon/Cancel.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="8">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true">QTabBar::tab{width:175;height:34
+;font: 13pt &quot;Microsoft YaHei UI&quot;;}
+
+</string>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>首页</string>
+       </attribute>
+       <widget class="QLabel" name="label_Operator">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>951</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(58, 58, 58);</string>
+        </property>
+        <property name="text">
+         <string>操作</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="AnimationButton" name="widget_user" native="true">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>290</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>用户管理</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="AnimationButton" name="widget_face" native="true">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>70</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>人脸管理</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="AnimationButton" name="widget_equiment" native="true">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>290</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>设备管理</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="AnimationButton" name="widget_Log" native="true">
+        <property name="geometry">
+         <rect>
+          <x>830</x>
+          <y>290</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>日志</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_Config">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>250</y>
+          <width>951</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(58, 58, 58);</string>
+        </property>
+        <property name="text">
+         <string>配置</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="AnimationButton" name="widget_Prew" native="true">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>70</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>预览</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="AnimationButton" name="widget_PlayBack" native="true">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>70</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>视频回放</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="AnimationButton" name="widget_set" native="true">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>290</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>设置</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+       <widget class="AnimationButton" name="widget_DevicePara" native="true">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>480</y>
+          <width>151</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>151</width>
+          <height>141</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>120</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>设备配置</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QPushButton" name="btnSetLanguage">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton::menu-indicator{image:none;}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="CpuMemoryLabel" name="labCPUMemory">
+      <property name="minimumSize">
+       <size>
+        <width>140</width>
+        <height>15</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>10</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <action name="screenAction">
+   <property name="text">
+    <string>抓图文件</string>
+   </property>
+  </action>
+  <action name="videoAction">
+   <property name="text">
+    <string>视频文件</string>
+   </property>
+  </action>
+  <action name="logAction">
+   <property name="text">
+    <string>日志文件</string>
+   </property>
+  </action>
+  <action name="exitAction">
+   <property name="icon">
+    <iconset theme="退出">
+     <normaloff>:/res/SoftIcon/Exit.png</normaloff>:/res/SoftIcon/Exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="yuntaiAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/PZTControl.png</normaloff>:/res/SoftIcon/PZTControl.png</iconset>
+   </property>
+   <property name="text">
+    <string>云台控制</string>
+   </property>
+  </action>
+  <action name="action1024_768">
+   <property name="text">
+    <string>1024*768</string>
+   </property>
+  </action>
+  <action name="action1280_1024">
+   <property name="text">
+    <string>1280*1024</string>
+   </property>
+  </action>
+  <action name="action1440_900">
+   <property name="text">
+    <string>1440*900</string>
+   </property>
+  </action>
+  <action name="maxAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/Max.png</normaloff>:/res/SoftIcon/Max.png</iconset>
+   </property>
+   <property name="text">
+    <string>最大化</string>
+   </property>
+  </action>
+  <action name="equipmentAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/EaimentSet.png</normaloff>:/res/SoftIcon/EaimentSet.png</iconset>
+   </property>
+   <property name="text">
+    <string>设备管理</string>
+   </property>
+  </action>
+  <action name="userAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/UserSet.png</normaloff>:/res/SoftIcon/UserSet.png</iconset>
+   </property>
+   <property name="text">
+    <string>用户管理</string>
+   </property>
+  </action>
+  <action name="faceAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/faceSet.png</normaloff>:/res/SoftIcon/faceSet.png</iconset>
+   </property>
+   <property name="text">
+    <string>人脸管理</string>
+   </property>
+  </action>
+  <action name="logSearchAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/LogSearch.png</normaloff>:/res/SoftIcon/LogSearch.png</iconset>
+   </property>
+   <property name="text">
+    <string>日志搜索</string>
+   </property>
+   <property name="toolTip">
+    <string>设备日志</string>
+   </property>
+  </action>
+  <action name="systemAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/SystemSet.png</normaloff>:/res/SoftIcon/SystemSet.png</iconset>
+   </property>
+   <property name="text">
+    <string>系统设置</string>
+   </property>
+  </action>
+  <action name="playBackAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/VideoPlayBack.png</normaloff>:/res/SoftIcon/VideoPlayBack.png</iconset>
+   </property>
+   <property name="text">
+    <string>视频摘要回放</string>
+   </property>
+  </action>
+  <action name="lockAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/Lock.png</normaloff>:/res/SoftIcon/Lock.png</iconset>
+   </property>
+   <property name="text">
+    <string>加锁</string>
+   </property>
+  </action>
+  <action name="MapAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/Map.png</normaloff>:/res/SoftIcon/Map.png</iconset>
+   </property>
+   <property name="text">
+    <string>电子地图</string>
+   </property>
+  </action>
+  <action name="eyeAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/Client/res/eye.ico</normaloff>:/Client/res/eye.ico</iconset>
+   </property>
+   <property name="text">
+    <string>铺平预览</string>
+   </property>
+  </action>
+  <action name="skinAaction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/Skin.png</normaloff>:/res/SoftIcon/Skin.png</iconset>
+   </property>
+   <property name="text">
+    <string>切换皮肤</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/about.png</normaloff>:/res/SoftIcon/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="preViewAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/Prew.png</normaloff>:/res/SoftIcon/Prew.png</iconset>
+   </property>
+   <property name="text">
+    <string>预览</string>
+   </property>
+  </action>
+  <action name="AlarmLogAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/res/SoftIcon/AlarmLog.png</normaloff>:/res/SoftIcon/AlarmLog.png</iconset>
+   </property>
+   <property name="text">
+    <string>告警日志</string>
+   </property>
+  </action>
+  <action name="previewAction">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset theme="主预览">
+     <normaloff>:/Client/res/Preview_48px_1093402_easyicon.net.ico</normaloff>:/Client/res/Preview_48px_1093402_easyicon.net.ico</iconset>
+   </property>
+   <property name="text">
+    <string>智能识别</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+  </action>
+  <action name="actionHomePage">
+   <property name="text">
+    <string>首页</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>AnimationButton</class>
+   <extends>QWidget</extends>
+   <header>animationbutton.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CpuMemoryLabel</class>
+   <extends>QLabel</extends>
+   <header>cpumemorylabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
